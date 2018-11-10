@@ -46,3 +46,5 @@ function imprimirNombre(persona) {
     const resultado = lineasSeparas.map((linea) => palabrasParesEImpares(linea)).join('\n');
   
     console.log(resultado)
+
+    input.split('\n').slice(1).forEach(line => console.log(line.split('').reduce(([evens, odds], current, i) => (i%2 === 0 ? [evens+current, odds] : [evens, odds+current]), ['', '']).join(' ')));

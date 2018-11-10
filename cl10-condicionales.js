@@ -26,3 +26,4 @@ function imprimirMayorDeEdad(persona) {
     console.log(`${persona.nombre} es  ${persona.edad >= 18 ? 'Mayor' : 'Menor'} de edad `)
     
 }
+
