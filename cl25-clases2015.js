@@ -25,9 +25,7 @@ class Desarrolador extends Persona{
    // saludar(){
     //    console.log(`Hola, me llamo ${this.nombre} ${this.apellido} y soy Desarrolador`);
     //}
-
 }
-
 var miguel = new Persona('Miguel', 'Rendon', 22, 1.75) 
 var jaime = new Desarrolador('Jaime', 'Rendon', 55, 1.90)
 
@@ -39,4 +37,5 @@ jaime.esAlto()
 miguel.esAlto()
 /*
 Persona
-persona.prototype*/
+persona.prototype
+Deserrolador.prototype*/
